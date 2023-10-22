@@ -107,12 +107,16 @@ import ReactDOM from "react-dom";
 const img1 = "https://picsum.photos/200/300?grayscale";
 const img2 = "https://picsum.photos/250/300?grayscale";
 const img3 = "https://picsum.photos/230/300?grayscale";
+const link = "https://www.youtube.com/watch?v=YEt23lSMR8o"
 ReactDOM.render(
 <>
 <h1 contentEditable="true"> My name is Tapesh</h1>
 <img src={img1} alt="No need to worry guys"/>
 <img src={img2} alt="No need to worry guys"/>
+
+<a href={link} target="blank">
 <img src={img3} alt="No need to worry guys"/>
+</a>
 
 </>, document.getElementById("root"));
 
