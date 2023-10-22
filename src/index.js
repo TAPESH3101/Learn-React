@@ -44,21 +44,22 @@ import ReactDOM from "react-dom";
 
 // JSX challenge
 
-ReactDOM.render(
+// ReactDOM.render(
 
-<>
-<h1> Top Netflix Picks</h1>
-<p>List of 5 Best series</p>
-<ol>
-    <li>Prison Break</li>
-    <li>Breaking Bad</li>
-    <li>Elite</li>
-    <li>Money Heist</li>
-    <li>Mirzapur</li>
-</ol>
+// <>
+// <h1> Top Netflix Picks</h1>
+// <p>List of 5 Best series</p>
+// <ol>
+//     <li>Prison Break</li>
+//     <li>Breaking Bad</li>
+//     <li>Elite</li>
+//     <li>Money Heist</li>
+//     <li>Mirzapur</li>
+// </ol>
+// </>, 
+// document.getElementById("root"));
 
-</>, 
-document.getElementById("root"));
+// JSX Expression in React 
 
 
 
