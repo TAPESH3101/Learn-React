@@ -173,32 +173,37 @@ import ReactDOM from "react-dom";
 // when we create a component file then we have to import it in the index.js file
 // SYNRAX FOR THE IMPORT OF THE COMPONENT
 
-import Heading from "./Heading";
-import List from "./List";
-import Para from "./Para";
+// import Heading from "./Heading";
+// import List from "./List";
+// import Para from "./Para";
 
 // when we have to use it then we have to call it
 // <Heading/>  ----> This is the self closing tag 
 
-ReactDOM.render(
+// ReactDOM.render(
 
-<>
-<Heading/>
-<Para/>
-{/* <p>List of 5 Best series</p> */}
-<List/>
-{/*  // we create a component for this above <List/>
-<ol> 
-    <li>Prison Break</li>
-    <li>Breaking Bad</li>
-    <li>Elite</li>
-    <li>Money Heist</li>
-    <li>Mirzapur</li>
-</ol> */}
-</>, 
-document.getElementById("root"));
+// <>
+// <Heading/>
+// <Para/>
+// {/* <p>List of 5 Best series</p> */}
+// <List/>
+// {/*  // we create a component for this above <List/>
+// <ol> 
+//     <li>Prison Break</li>
+//     <li>Breaking Bad</li>
+//     <li>Elite</li>
+//     <li>Money Heist</li>
+//     <li>Mirzapur</li>
+// </ol> */}
+// </>, 
+// document.getElementById("root"));
 
+// ---when we create a main component
+// Then we need to import it as well
 
+import App from "./App";
+
+ReactDOM.render(<App/>,document.getElementById("root"));
 
 
 
