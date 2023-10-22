@@ -119,9 +119,10 @@ const fname = "Tapesh";
 ReactDOM.render(
 <>
 <h1 className="Heading"> My name is {fname}</h1>
+<div className="imagess">
 <img src={img1} alt="No need to worry guys"/>
 
-<div className="imagess">
+
 <img src={img2} alt="No need to worry guys"/>
 
 <a href={link} target="blank">
