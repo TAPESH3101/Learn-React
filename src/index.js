@@ -89,18 +89,32 @@ import ReactDOM from "react-dom";
 // JSX challenge------2
 // Display current date and time
 
-const name = "Tapesh";
-const currDate = new Date().toLocaleDateString();
-const currTime = new Date().toLocaleTimeString();
+// const name = "Tapesh";
+// const currDate = new Date().toLocaleDateString();
+// const currTime = new Date().toLocaleTimeString();
 
+// ReactDOM.render(
+// <>
+// <h1>Hello, My name is {name}</h1>
+// <p>Current date is {currDate}</p>
+// <p> current time is {currTime}</p>
+// </>,
+//  document.getElementById("root"));
+
+// JSX Attributes in React
+// we use ALT when the image is not being loaded due to various factors
+
+const img1 = "https://picsum.photos/200/300?grayscale";
+const img2 = "https://picsum.photos/250/300?grayscale";
+const img3 = "https://picsum.photos/230/300?grayscale";
 ReactDOM.render(
 <>
-<h1>Hello, My name is {name}</h1>
-<p>Current date is {currDate}</p>
-<p> current time is {currTime}</p>
-</>,
- document.getElementById("root"));
+<h1 contentEditable="true"> My name is Tapesh</h1>
+<img src={img1} alt="No need to worry guys"/>
+<img src={img2} alt="No need to worry guys"/>
+<img src={img3} alt="No need to worry guys"/>
 
+</>, document.getElementById("root"));
 
 
 
