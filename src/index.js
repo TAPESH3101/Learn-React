@@ -62,20 +62,29 @@ import ReactDOM from "react-dom";
 // JSX Expression in React 
 // we can use curly braces like this { } 
 // we can only use expression inside these braces
+// if we want to use JavaScript inside the JSX element then we use  these {}
 
 const fname = "Tapesh";
+const lname = "chahar";
  
+// ReactDOM.render(
+//     <>
+//     <h1>My name is {fname+" "+lname} </h1>
+//     <p> My brother name is Parthiv and {2+3}</p>
+//     </>, 
+//     document.getElementById("root")
+// );
+
+// Template Literals
+// In this we use ` `(Back tick)
+
 ReactDOM.render(
     <>
-    <h1>My name is {fname}</h1>
+    <h1> {`My name is ${fname} ${lname}`} </h1>
     <p> My brother name is Parthiv and {2+3}</p>
     </>, 
     document.getElementById("root")
 );
-
-
-
-
 
 
 
