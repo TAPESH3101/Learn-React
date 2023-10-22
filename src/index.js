@@ -87,6 +87,18 @@ import ReactDOM from "react-dom";
 // );
 
 // JSX challenge------2
+// Display current date and time
+
+const name = "Tapesh";
+
+
+ReactDOM.render(
+<>
+<h1>Hello, My name is {name}</h1>
+<p>Current date is </p>
+<p> current time is </p>
+</>,
+ document.getElementById("root"));
 
 
 
