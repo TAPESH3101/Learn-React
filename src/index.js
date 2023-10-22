@@ -110,33 +110,65 @@ import "./index.css";
 // if we use target = blank in the <a> tag then it will open the link on the another page
 // IN order to add CSS we need a className = Heading so that we can add style in it in the index.css file
 
-const img1 = "https://picsum.photos/200/300?grayscale";
-const img2 = "https://picsum.photos/250/300?grayscale";
-const img3 = "https://picsum.photos/230/300?grayscale";
-const link = "https://www.youtube.com/watch?v=YEt23lSMR8o";
-const fname = "Tapesh";
+// const img1 = "https://picsum.photos/200/300?grayscale";
+// const img2 = "https://picsum.photos/250/300?grayscale";
+// const img3 = "https://picsum.photos/230/300?grayscale";
+// const link = "https://www.youtube.com/watch?v=YEt23lSMR8o";
+// const fname = "Tapesh";
 
-ReactDOM.render(
-<>
-<h1 className="Heading"> My name is {fname}</h1>
-<div className="imagess">
-<img src={img1} alt="No need to worry guys"/>
+// ReactDOM.render(
+// <>
+// <h1 className="Heading"> My name is {fname}</h1>
+// <div className="imagess">
+// <img src={img1} alt="No need to worry guys"/>
 
 
-<img src={img2} alt="No need to worry guys"/>
+// <img src={img2} alt="No need to worry guys"/>
 
-<a href={link} target="blank">
-<img src={img3} alt="No need to worry guys"/>
-</a>
-</div>
+// <a href={link} target="blank">
+// <img src={img3} alt="No need to worry guys"/>
+// </a>
+// </div>
 
-</>, document.getElementById("root"));
+// </>, document.getElementById("root"));
 
 //---------- How to add google fonts-----
 // Go to google fonts and search any font and then copy the link and paste it in the index.html file in the <head> secction
 // also copy and paste the font family in the index.css of the font that you want to change under that className
 
+//-----------Inline and Internal CSS-----------
 
+// const img1 = "https://picsum.photos/200/300?grayscale";
+// const img2 = "https://picsum.photos/250/300?grayscale";
+// const img3 = "https://picsum.photos/230/300?grayscale";
+// const link = "https://www.youtube.com/watch?v=YEt23lSMR8o";
+// const fname = "Tapesh";
+// // Inline CSS
+// // kebab case
+// const heading = {
+//     color: "#fa9191",
+//     textTransform: "capitalize",
+//     textAlign: "center",
+// }
+
+// ReactDOM.render(
+// <>
+// <h1 style={heading}> My name is {fname}</h1>
+// <div className="imagess">
+// <img src={img1} alt="No need to worry guys"/>
+
+
+// <img src={img2} alt="No need to worry guys"/>
+
+// <a href={link} target="blank">
+// <img src={img3} alt="No need to worry guys"/>
+// </a>
+// </div>
+
+// </>, document.getElementById("root"));
+
+
+// ---------JSX Challenge 3 -----------------
 
 
 
