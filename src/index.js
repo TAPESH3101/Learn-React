@@ -63,12 +63,16 @@ import ReactDOM from "react-dom";
 // we can use curly braces like this { } 
 // we can only use expression inside these braces
 
+const fname = "Tapesh";
+ 
 ReactDOM.render(
     <>
-        <h1>My name is Tapesh</h1>
-        <p> My brother name is Parthiv</p>
-    </>, document.getElementById("root")
+    <h1>My name is {fname}</h1>
+    <p> My brother name is Parthiv and {2+3}</p>
+    </>, 
+    document.getElementById("root")
 );
+
 
 
 
