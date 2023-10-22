@@ -42,7 +42,7 @@ import ReactDOM from "react-dom";
 //     </>,document.getElementById("root")
 // );
 
-// JSX challenge
+// JSX challenge-----1
 
 // ReactDOM.render(
 
@@ -64,8 +64,8 @@ import ReactDOM from "react-dom";
 // we can only use expression inside these braces
 // if we want to use JavaScript inside the JSX element then we use  these {}
 
-const fname = "Tapesh";
-const lname = "chahar";
+// const fname = "Tapesh";
+// const lname = "chahar";
  
 // ReactDOM.render(
 //     <>
@@ -78,13 +78,17 @@ const lname = "chahar";
 // Template Literals
 // In this we use ` `(Back tick)
 
-ReactDOM.render(
-    <>
-    <h1> {`My name is ${fname} ${lname}`} </h1>
-    <p> My brother name is Parthiv and {2+3}</p>
-    </>, 
-    document.getElementById("root")
-);
+// ReactDOM.render(
+//     <>
+//     <h1> {`My name is ${fname} ${lname}`} </h1>
+//     <p> My brother name is Parthiv and {2+3}</p>
+//     </>, 
+//     document.getElementById("root")
+// );
+
+// JSX challenge------2
+
+
 
 
 
