@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import "./index.css";
 
 
 // ReactDOM.render(
@@ -101,16 +102,21 @@ import ReactDOM from "react-dom";
 // </>,
 //  document.getElementById("root"));
 
+
 // JSX Attributes in React
 // we use ALT when the image is not being loaded due to various factors
+// <a> this is known Anchor tag
+// if we use target = blank in the <a> tag then it will open the link on the another page
 
 const img1 = "https://picsum.photos/200/300?grayscale";
 const img2 = "https://picsum.photos/250/300?grayscale";
 const img3 = "https://picsum.photos/230/300?grayscale";
-const link = "https://www.youtube.com/watch?v=YEt23lSMR8o"
+const link = "https://www.youtube.com/watch?v=YEt23lSMR8o";
+const fname = "Tapesh";
+
 ReactDOM.render(
 <>
-<h1 contentEditable="true"> My name is Tapesh</h1>
+<h1 class="Heading"> My name is {fname}</h1>
 <img src={img1} alt="No need to worry guys"/>
 <img src={img2} alt="No need to worry guys"/>
 
@@ -119,6 +125,8 @@ ReactDOM.render(
 </a>
 
 </>, document.getElementById("root"));
+
+
 
 
 
