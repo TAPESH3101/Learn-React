@@ -90,13 +90,14 @@ import ReactDOM from "react-dom";
 // Display current date and time
 
 const name = "Tapesh";
-
+const currDate = new Date().toLocaleDateString();
+const currTime = new Date().toLocaleTimeString();
 
 ReactDOM.render(
 <>
 <h1>Hello, My name is {name}</h1>
-<p>Current date is </p>
-<p> current time is </p>
+<p>Current date is {currDate}</p>
+<p> current time is {currTime}</p>
 </>,
  document.getElementById("root"));
 
