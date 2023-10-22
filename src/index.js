@@ -132,6 +132,9 @@ ReactDOM.render(
 
 </>, document.getElementById("root"));
 
+//---------- How to add google fonts-----
+// Go to google fonts and search any font and then copy the link and paste it in the index.html file in the <head> secction
+// also copy and paste the font family in the index.css of the font that you want to change under that className
 
 
 
