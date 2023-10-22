@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // This is how the js file come to know that there exists a CSS file
-import "./index.css";
+// import "./index.css";
 
 
 // ReactDOM.render(
@@ -168,7 +168,34 @@ import "./index.css";
 // </>, document.getElementById("root"));
 
 
-// ---------JSX Challenge 3 -----------------
+// ------------Componenets in React------------
+// When we create a componenet the file name should be start with the capital letter like Heading.jsx
+// when we create a component file then we have to import it in the index.js file
+// SYNRAX FOR THE IMPORT OF THE COMPONENT
+
+import Heading from "./Heading";
+import List from "./List";
+
+// when we have to use it then we have to call it
+// <Heading/>  ----> This is the self closing tag 
+
+ReactDOM.render(
+
+<>
+<Heading/>
+<p>List of 5 Best series</p>
+<List/>
+{/*  // we create a component for this above <List/>
+<ol> 
+    <li>Prison Break</li>
+    <li>Breaking Bad</li>
+    <li>Elite</li>
+    <li>Money Heist</li>
+    <li>Mirzapur</li>
+</ol> */}
+</>, 
+document.getElementById("root"));
+
 
 
 
