@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// This is how the js file come to know that there exists a CSS file
 import "./index.css";
 
 
@@ -107,6 +108,7 @@ import "./index.css";
 // we use ALT when the image is not being loaded due to various factors
 // <a> this is known Anchor tag
 // if we use target = blank in the <a> tag then it will open the link on the another page
+// IN order to add CSS we need a className = Heading so that we can add style in it in the index.css file
 
 const img1 = "https://picsum.photos/200/300?grayscale";
 const img2 = "https://picsum.photos/250/300?grayscale";
@@ -116,16 +118,18 @@ const fname = "Tapesh";
 
 ReactDOM.render(
 <>
-<h1 class="Heading"> My name is {fname}</h1>
+<h1 className="Heading"> My name is {fname}</h1>
 <img src={img1} alt="No need to worry guys"/>
+
+<div className="imagess">
 <img src={img2} alt="No need to worry guys"/>
 
 <a href={link} target="blank">
 <img src={img3} alt="No need to worry guys"/>
 </a>
+</div>
 
 </>, document.getElementById("root"));
-
 
 
 
