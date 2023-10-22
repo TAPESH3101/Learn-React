@@ -60,6 +60,15 @@ import ReactDOM from "react-dom";
 // document.getElementById("root"));
 
 // JSX Expression in React 
+// we can use curly braces like this { } 
+// we can only use expression inside these braces
+
+ReactDOM.render(
+    <>
+        <h1>My name is Tapesh</h1>
+        <p> My brother name is Parthiv</p>
+    </>, document.getElementById("root")
+);
 
 
 
