@@ -175,6 +175,7 @@ import ReactDOM from "react-dom";
 
 import Heading from "./Heading";
 import List from "./List";
+import Para from "./Para";
 
 // when we have to use it then we have to call it
 // <Heading/>  ----> This is the self closing tag 
@@ -183,7 +184,8 @@ ReactDOM.render(
 
 <>
 <Heading/>
-<p>List of 5 Best series</p>
+<Para/>
+{/* <p>List of 5 Best series</p> */}
 <List/>
 {/*  // we create a component for this above <List/>
 <ol> 
