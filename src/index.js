@@ -212,15 +212,23 @@ import ReactDOM from "react-dom";
 
 
 // import family_member from "./App";
+// import {age} from "./App";
+//        OR
+import family_member, {age, myName} from "./App";
+
 // we can import everything as an object from App.jsx file by using
-import * as ques from "./App";
+// import * as ques from "./App";
+
+// We can access function in index.jsx by using the function name and also using this ()
+// Here we access the function that we create in App.jsx ny using {myName()}
 
 
 ReactDOM.render(
 <>
 <h1>My name is tapesh</h1>
 
-<p>{ques.family_member}</p>
-<p>{ques.age}</p>
+<p>{family_member}</p>
+<p>{age}</p>
+<p>{myName()}</p>
 
 </>,document.getElementById("root"));

@@ -27,5 +27,11 @@ const family_member = "My dadu, maa, mon, dad ";
 export default family_member;
 
 const age = "My age is ten";
-export {age};
 
+
+function myName(){
+  let name = "Parthiv";
+  return name;
+}
+
+export {age, myName};
