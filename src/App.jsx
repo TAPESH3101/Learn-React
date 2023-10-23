@@ -23,3 +23,6 @@
 
 //-------------IMPORT AND EXPORT MODULES----------------
 
+const family_member = "My dadu, maa, mon, dad ";
+export default family_member;
+

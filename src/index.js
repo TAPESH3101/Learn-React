@@ -208,9 +208,12 @@ import ReactDOM from "react-dom";
 
 //---------------IMPORT AND EXPORT MODULES--------------------------------
 // Import export job is to communicate with each other and share their data
+import family_member from "./App";
 
 ReactDOM.render(
 <>
 <h1>My name is tapesh</h1>
+// If we want to use JS part in React then we have to use Curly Braces
+<p>{family_member}</p>
 
 </>,document.getElementById("root"));
