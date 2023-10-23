@@ -10,6 +10,7 @@ function Heading(){
 }
 // Now we have to use the component in the index.js file 
 
+
 export default Heading;
 
 

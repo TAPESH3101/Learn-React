@@ -23,15 +23,15 @@
 
 //-------------IMPORT AND EXPORT MODULES----------------
 
-const family_member = "My dadu, maa, mon, dad ";
-export default family_member;
+// const family_member = "My dadu, maa, mon, dad ";
+// export default family_member;
 
-const age = "My age is ten";
+// const age = "My age is ten";
 
 
-function myName(){
-  let name = "Parthiv";
-  return name;
-}
+// function myName(){
+//   let name = "Parthiv";
+//   return name;
+// }
 
-export {age, myName};
+// export {age, myName};
