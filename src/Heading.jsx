@@ -7,7 +7,6 @@ import React from "react";
 
 function Heading(){
     return <h1> My Top Netflix Picks</h1>
-
 }
 // Now we have to use the component in the index.js file 
 

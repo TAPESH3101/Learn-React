@@ -168,7 +168,7 @@ import ReactDOM from "react-dom";
 // </>, document.getElementById("root"));
 
 
-// ------------Componenets in React------------
+// -------------------------------Componenets In React---------------------------------
 // When we create a componenet the file name should be start with the capital letter like Heading.jsx
 // when we create a component file then we have to import it in the index.js file
 // SYNRAX FOR THE IMPORT OF THE COMPONENT
@@ -201,10 +201,16 @@ import ReactDOM from "react-dom";
 // ---when we create a main component
 // Then we need to import it as well
 
-import App from "./App";
-
-ReactDOM.render(<App/>,document.getElementById("root"));
-
-
+// import App from "./App";
+// ReactDOM.render(<App/>,document.getElementById("root"));
+//---------------------------------------------------------------------------------
 
 
+//---------------IMPORT AND EXPORT MODULES--------------------------------
+// Import export job is to communicate with each other and share their data
+
+ReactDOM.render(
+<>
+<h1>My name is tapesh</h1>
+
+</>,document.getElementById("root"));
