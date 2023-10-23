@@ -207,13 +207,20 @@ import ReactDOM from "react-dom";
 
 
 //---------------IMPORT AND EXPORT MODULES--------------------------------
-// Import export job is to communicate with each other and share their data
-import family_member from "./App";
+// Import export job is to communicate with each other and share their data.
+// If we want to use JS part in React then we have to use Curly Braces
+
+
+// import family_member from "./App";
+// we can import everything as an object from App.jsx file by using
+import * as ques from "./App";
+
 
 ReactDOM.render(
 <>
 <h1>My name is tapesh</h1>
-// If we want to use JS part in React then we have to use Curly Braces
-<p>{family_member}</p>
+
+<p>{ques.family_member}</p>
+<p>{ques.age}</p>
 
 </>,document.getElementById("root"));
