@@ -169,6 +169,7 @@ import ReactDOM from "react-dom";
 
 
 // -------------------------------Componenets In React---------------------------------
+
 // When we create a componenet the file name should be start with the capital letter like Heading.jsx
 // when we create a component file then we have to import it in the index.js file
 // SYNRAX FOR THE IMPORT OF THE COMPONENT
