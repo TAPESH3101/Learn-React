@@ -206,7 +206,8 @@ import ReactDOM from "react-dom";
 //---------------------------------------------------------------------------------
 
 
-//---------------IMPORT AND EXPORT MODULES--------------------------------
+//---------------IMPORT AND EXPORT MODULES--------------------------------\
+
 // Import export job is to communicate with each other and share their data.
 // If we want to use JS part in React then we have to use Curly Braces
 
