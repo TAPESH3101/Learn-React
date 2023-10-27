@@ -230,8 +230,8 @@ import ReactDOM from "react-dom";
 // <p>{family_member}</p>
 // <p>{age}</p>
 // <p>{myName()}</p>
-
 // </>,document.getElementById("root"));
+
 
 //---------------------------------------------------------------------------
 
