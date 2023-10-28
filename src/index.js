@@ -244,6 +244,7 @@ import ReactDOM from "react-dom";
 //3-- It does not work inside classes
 //4-- Hooks should always be used at the top level of the React.
 // 5-- Hooks are very beneficial for the ease of the programmers.
+// 
 
 //--------------------------------------------------------------------------
 
