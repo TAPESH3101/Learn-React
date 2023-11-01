@@ -236,6 +236,7 @@ import ReactDOM from "react-dom";
 //---------------------------------------------------------------------------
 
 
+
 // --------------------------- REACT HOOKS  ----------------------------------
 // 1-- Hooks are introduced in the React 16.8 version
 // 2-- It allows us to use state and other React features without writing a 
