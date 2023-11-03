@@ -224,8 +224,6 @@ import ReactDOM from "react-dom";
 // We can access function in index.jsx by using the function name and also using this ()
 // Here we access the function that we create in App.jsx ny using {myName()}
 
-
-
 // ReactDOM.render(
 // <>
 // <h1>My name is tapesh</h1>
